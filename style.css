@@ -1,0 +1,123 @@
+body {
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  min-width: 100px;
+  width: 90%;
+}
+
+.main-content {
+  background-color: #CCCCCC;
+}
+
+.site-footer {
+  background-color: #777777;
+  bottom: 0px;
+  color: #000000;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.site-header {
+  background-color: #DDDDDD;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+/***************************************************************
+                          Accessibility
+***************************************************************/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/***************************************************************
+                            Articles
+***************************************************************/
+.accordion-control {
+  display: inline;
+}
+
+.article-data {
+	  padding-left: 10px;
+}
+
+.article-data h1 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.article-data li {
+	  list-style-type: disc !important;
+		padding: 0px;
+}
+
+.article-data ul {
+	  padding: 0px;
+}
+
+.article-links {
+  padding: 25px;
+}
+
+.article-links * {
+  text-align: left;
+  width: 100%;
+}
+
+.article-links article {
+  display: none;
+}
+
+.article-links li {
+}
+
+.sellersArticleHeader,
+.buyersArticleHeader,
+.calculatorsArticleHeader {
+  background-color: #EEEEEE;
+}
+
+.sellersArticleHeader:hover,
+.buyersArticleHeader:hover,
+.calculatorsArticleHeader:hover {
+  background-color: #CCCCCC;
+}

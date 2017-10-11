@@ -1,0 +1,18 @@
+/***************************************************************
+                              Grid
+***************************************************************/
+body {
+  display: grid;
+  grid-template-columns: 5px 1fr 10px minmax(100px, 800px) 10px 1fr 5px;
+  grid-template-rows: 5px 100px auto 50px;
+}
+
+.main-content {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+.site-footer {
+  grid-column: span 7;
+  grid-row: 4/5;
+}

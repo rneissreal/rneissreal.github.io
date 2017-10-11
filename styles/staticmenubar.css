@@ -1,0 +1,48 @@
+/***************************************************************
+                      Staic Menu Position
+***************************************************************/
+.menu-item {
+  width: 18%;
+}
+
+.menu-item:hover {
+  background-color: #CCCCCC;
+}
+
+.menu-item-padding {
+  width: 5%;
+}
+
+.menu-link {
+  color: #FFFFFF;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px !important;
+  font-weight: bold;
+  padding-top: 7px;
+}
+
+.menu-link:hover {
+  color: #333333;
+}
+
+.site-menu {
+  background-color: #777777;
+  height: 34px;
+}
+
+.site-menu li {
+}
+
+.site-menu ul {
+  display: inline-flex;
+  height: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+}
+
+.site-menu ul * {
+  height: 100%;
+}
