@@ -1,0 +1,85 @@
+/*  Basic accordion stucture
+HTML
+=====================
+<div id="accordion">
+  <ul>
+    <li>
+      <a href="#one">Example one</a>
+      <article id="one" class="accordion">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet in laborum praesentium esse aliquam molestiae animi non facilis perspiciatis corporis ad molestias quo harum suscipit ipsum incidunt ea voluptates accusantium.
+      </article>
+    </li>
+	</ul>
+</div>
+*/
+
+CSS Accordion
+=====================
+#accordion {
+	margin: 100px auto;
+	width: 400px;
+}
+
+#accordion ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.accordion {
+	display: none;
+}
+
+.accordion:target {
+	display: block;
+}
+
+#accordion ul li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#accordion ul li a:hover {
+	display: block;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+.accordion {
+	padding: 4px;
+}
+
+CSS Colors
+====================
+#accordion ul {
+	//box-shadow
+	-moz-box-shadow: 0px 4px 10px #BDBDBD;
+	-webkit-box-shadow: 0px 4px 10px #BDBDBD;
+	box-shadow: 0px 4px 10px #BDBDBD;
+
+	//border-radius
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#accordion ul li a {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E0E0E0;
+	color: #333333;
+}
+
+#accordion ul li a:hover {
+	background-color: #CCCCCC;
+}
+
+.accordion {
+	background-color: #CCCCCC;
+	color: #000000;
+}
+
+.accordion:target {
+	border-bottom: 4px solid #999999;
+	border-top: 4px solid #999999;
+}
